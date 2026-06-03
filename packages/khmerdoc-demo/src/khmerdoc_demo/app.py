@@ -212,7 +212,6 @@ def run_extraction(
 def _build_ui() -> gr.Blocks:
     with gr.Blocks(
         title="KhmerDocKit — Cambodia Document AI",
-        theme=gr.themes.Soft(primary_hue="indigo"),
     ) as demo:
         gr.Markdown(
             """
@@ -335,7 +334,12 @@ def main(argv: list[str] | None = None) -> int:
     )
 
     demo = _build_ui()
-    demo.launch(server_name=args.host, server_port=args.port, share=args.share)
+    demo.launch(
+        server_name=args.host,
+        server_port=args.port,
+        share=args.share,
+        theme=gr.themes.Soft(primary_hue="indigo"),
+    )
     return 0
 
 

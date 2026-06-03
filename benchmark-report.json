@@ -1,0 +1,3749 @@
+{
+  "root": "datasets\\synthetic",
+  "n_samples": 20,
+  "per_doc": [
+    {
+      "sample": "bank_slips\\bankslip-001",
+      "document_type": "bank_slip",
+      "confidence": 0.77,
+      "warnings": [
+        {
+          "code": "phone_missing",
+          "message": "No phone number detected.",
+          "field": null
+        },
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "amount": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "bank_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "receiver_account": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "receiver_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "reference": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "sender_account": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "sender_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "bank_slips\\bankslip-002",
+      "document_type": "bank_slip",
+      "confidence": 0.77,
+      "warnings": [
+        {
+          "code": "phone_missing",
+          "message": "No phone number detected.",
+          "field": null
+        },
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "amount": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "bank_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "receiver_account": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "receiver_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "reference": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "sender_account": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "sender_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "bank_slips\\bankslip-003",
+      "document_type": "bank_slip",
+      "confidence": 0.77,
+      "warnings": [
+        {
+          "code": "phone_missing",
+          "message": "No phone number detected.",
+          "field": null
+        },
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "amount": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "bank_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "receiver_account": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "receiver_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "reference": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "sender_account": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "sender_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "bank_slips\\bankslip-004",
+      "document_type": "bank_slip",
+      "confidence": 0.77,
+      "warnings": [
+        {
+          "code": "phone_missing",
+          "message": "No phone number detected.",
+          "field": null
+        },
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "amount": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "bank_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "receiver_account": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "receiver_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "reference": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "sender_account": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "sender_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "bank_slips\\bankslip-005",
+      "document_type": "bank_slip",
+      "confidence": 0.77,
+      "warnings": [
+        {
+          "code": "phone_missing",
+          "message": "No phone number detected.",
+          "field": null
+        },
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "amount": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "bank_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "receiver_account": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "receiver_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "reference": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "sender_account": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "sender_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "invoices\\invoice-001",
+      "document_type": "invoice",
+      "confidence": 0.85,
+      "warnings": [
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "buyer_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "due_date": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "invoice_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "invoices\\invoice-002",
+      "document_type": "invoice",
+      "confidence": 0.85,
+      "warnings": [
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "buyer_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "due_date": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "invoice_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "invoices\\invoice-003",
+      "document_type": "invoice",
+      "confidence": 0.85,
+      "warnings": [
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "buyer_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "due_date": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "invoice_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "invoices\\invoice-004",
+      "document_type": "invoice",
+      "confidence": 0.85,
+      "warnings": [
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "buyer_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "due_date": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "invoice_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "invoices\\invoice-005",
+      "document_type": "invoice",
+      "confidence": 0.85,
+      "warnings": [
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "buyer_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "due_date": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "invoice_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "quotations\\quotation-001",
+      "document_type": "quotation",
+      "confidence": 0.85,
+      "warnings": [
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "buyer_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quotation_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "valid_until": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "quotations\\quotation-002",
+      "document_type": "quotation",
+      "confidence": 0.85,
+      "warnings": [
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "buyer_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quotation_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "valid_until": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "quotations\\quotation-003",
+      "document_type": "quotation",
+      "confidence": 0.85,
+      "warnings": [
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "buyer_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quotation_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "valid_until": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "quotations\\quotation-004",
+      "document_type": "quotation",
+      "confidence": 0.85,
+      "warnings": [
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "buyer_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quotation_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "valid_until": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "quotations\\quotation-005",
+      "document_type": "quotation",
+      "confidence": 0.85,
+      "warnings": [
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "buyer_name": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quotation_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "valid_until": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "receipts\\receipt-001",
+      "document_type": "receipt",
+      "confidence": 0.93,
+      "warnings": [],
+      "fields": {
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "invoice_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "receipts\\receipt-002",
+      "document_type": "receipt",
+      "confidence": 0.93,
+      "warnings": [],
+      "fields": {
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "invoice_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "receipts\\receipt-003",
+      "document_type": "receipt",
+      "confidence": 0.85,
+      "warnings": [
+        {
+          "code": "line_items_missing",
+          "message": "No structured line items detected.",
+          "field": null
+        }
+      ],
+      "fields": {
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "invoice_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "receipts\\receipt-004",
+      "document_type": "receipt",
+      "confidence": 0.93,
+      "warnings": [],
+      "fields": {
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "invoice_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "sample": "receipts\\receipt-005",
+      "document_type": "receipt",
+      "confidence": 0.93,
+      "warnings": [],
+      "fields": {
+        "confidence": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "currency": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "discount": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "document_type": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "engine": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "invoice_number": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "line_items": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "merchant_name": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "phone_numbers": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "raw_ocr_text": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subtotal": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "total": 1,
+          "correct": 1,
+          "partial": 0,
+          "missing": 0,
+          "wrong": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "warnings": {
+          "total": 1,
+          "correct": 0,
+          "partial": 0,
+          "missing": 1,
+          "wrong": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    }
+  ],
+  "fields": {
+    "amount": {
+      "total": 5,
+      "correct": 5,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "bank_name": {
+      "total": 5,
+      "correct": 0,
+      "partial": 0,
+      "missing": 5,
+      "wrong": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "confidence": {
+      "total": 20,
+      "correct": 0,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 20,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "currency": {
+      "total": 20,
+      "correct": 20,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "date": {
+      "total": 20,
+      "correct": 20,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "document_type": {
+      "total": 20,
+      "correct": 20,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "engine": {
+      "total": 20,
+      "correct": 0,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 20,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "phone_numbers": {
+      "total": 20,
+      "correct": 15,
+      "partial": 0,
+      "missing": 5,
+      "wrong": 0,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.857
+    },
+    "raw_ocr_text": {
+      "total": 20,
+      "correct": 0,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 20,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "receiver_account": {
+      "total": 5,
+      "correct": 0,
+      "partial": 0,
+      "missing": 5,
+      "wrong": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "receiver_name": {
+      "total": 5,
+      "correct": 0,
+      "partial": 0,
+      "missing": 5,
+      "wrong": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "reference": {
+      "total": 5,
+      "correct": 5,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "sender_account": {
+      "total": 5,
+      "correct": 0,
+      "partial": 0,
+      "missing": 5,
+      "wrong": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "sender_name": {
+      "total": 5,
+      "correct": 0,
+      "partial": 0,
+      "missing": 5,
+      "wrong": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "warnings": {
+      "total": 20,
+      "correct": 0,
+      "partial": 0,
+      "missing": 4,
+      "wrong": 16,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "buyer_name": {
+      "total": 10,
+      "correct": 0,
+      "partial": 0,
+      "missing": 10,
+      "wrong": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "discount": {
+      "total": 15,
+      "correct": 0,
+      "partial": 0,
+      "missing": 15,
+      "wrong": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "due_date": {
+      "total": 5,
+      "correct": 0,
+      "partial": 0,
+      "missing": 5,
+      "wrong": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "invoice_number": {
+      "total": 10,
+      "correct": 10,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "line_items": {
+      "total": 15,
+      "correct": 0,
+      "partial": 0,
+      "missing": 11,
+      "wrong": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "merchant_name": {
+      "total": 15,
+      "correct": 15,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "subtotal": {
+      "total": 15,
+      "correct": 15,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "tax": {
+      "total": 15,
+      "correct": 0,
+      "partial": 0,
+      "missing": 15,
+      "wrong": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "total": {
+      "total": 15,
+      "correct": 15,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "quotation_number": {
+      "total": 5,
+      "correct": 5,
+      "partial": 0,
+      "missing": 0,
+      "wrong": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "valid_until": {
+      "total": 5,
+      "correct": 0,
+      "partial": 0,
+      "missing": 5,
+      "wrong": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  }
+}

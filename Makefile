@@ -94,6 +94,10 @@ synth:
 benchmark:
 	$(PY) -m khmerdoc.cli benchmark datasets/synthetic
 
+.PHONY: benchmark-json
+benchmark-json:
+	$(PY) -m khmerdoc.benchmark.report datasets/synthetic --out benchmark-report.json
+
 # ----- docker -----
 .PHONY: docker
 docker:
