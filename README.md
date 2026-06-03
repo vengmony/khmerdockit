@@ -32,6 +32,17 @@ KhmerDocKit is **open infrastructure** for that gap:
 * **Generic enough** for other low-resource-language document-AI work
   (just add your own OCR/extractor adapters).
 
+## Project status & maintainers
+
+KhmerDocKit is **founder-led and community-driven**. The current
+maintainers are listed in [`MAINTAINERS.md`](./MAINTAINERS.md). The
+project is actively open for contributions — see
+[`CONTRIBUTING.md`](./CONTRIBUTING.md) and the
+[`good first issue`](https://github.com/khmerdoc/khmerdockit/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+list. If you maintain a Cambodia-focused POS, fintech, or govtech
+product and want to shape the roadmap, please reach out via a GitHub
+discussion.
+
 ## What you get in v0.1.0
 
 | Surface              | Status |
@@ -178,6 +189,10 @@ v1.0 = stable schemas + production deployment.
 We welcome PRs. Read [`CONTRIBUTING.md`](./CONTRIBUTING.md) and the
 [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) first. **Do not commit real
 receipts or private data** — only synthetic samples go in `datasets/synthetic/`.
+
+If you're new, start with a `good first issue` or a
+[document template request](./.github/ISSUE_TEMPLATE/document_template_request.yml) — both are
+self-contained and don't require touching the core extraction logic.
 
 ## License
 

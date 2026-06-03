@@ -3,6 +3,12 @@
 Thanks for your interest in **KhmerDocKit** — we welcome contributions from
 developers, designers, accountants, and Cambodia tech enthusiasts.
 
+The project is **founder-led and community-driven**: the founder & lead
+maintainer sets the long-term direction, but every PR goes through
+public review and the roadmap is shaped by community discussion. See
+[`MAINTAINERS.md`](./MAINTAINERS.md) for how decisions are made and how
+to become a co-maintainer.
+
 This project is in an **early MVP state (v0.1.0)**. The best ways to help right
 now are:
 
