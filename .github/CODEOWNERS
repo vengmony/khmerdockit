@@ -5,7 +5,7 @@
 # reviewers. See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
 # ---- Default: founder gets eyes on everything ----
-*                               @founder
+*                               @vengmony
 
 # ---- Package-specific leads (uncomment / add as co-maintainers join) ----
 # /packages/khmerdoc-core/      @core-lead
@@ -13,10 +13,10 @@
 # /packages/khmerdoc-web/       @web-lead
 # /datasets/                    @dataset-lead
 # /docs/                        @docs-lead
-# /.github/                     @founder
+# /.github/                     @vengmony
 
 # ---- Critical-path: schemas and public API need a second pair of eyes ----
-/packages/khmerdoc-core/src/khmerdoc/schemas.py  @founder
-/packages/khmerdoc-api/src/khmerdoc_api/routes/  @founder
-/docs/schemas.md                                @founder
-/docs/cambodia_validation_rules.md              @founder
+/packages/khmerdoc-core/src/khmerdoc/schemas.py  @vengmony
+/packages/khmerdoc-api/src/khmerdoc_api/routes/  @vengmony
+/docs/schemas.md                                @vengmony
+/docs/cambodia_validation_rules.md              @vengmony

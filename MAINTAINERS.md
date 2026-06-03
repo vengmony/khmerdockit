@@ -9,11 +9,7 @@ issues / discussions.
 
 | Handle          | Role                                | Focus area                          |
 | --------------- | ----------------------------------- | ----------------------------------- |
-| @founder        | Core creator & lead maintainer      | Architecture, releases, governance  |
-
-> Replace the handle above with your real GitHub handle before tagging
-> v0.1.0. (If you'd rather not single-name yourself yet, leave the
-> table as-is and add co-maintainers as they join.)
+| @vengmony       | Core creator & lead maintainer      | Architecture, releases, governance  |
 
 ## Becoming a co-maintainer
 
