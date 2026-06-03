@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+html, body {
+  height: 100%;
+  background: #0b0c10;
+  color: #e6e6e6;
+}
+
+a {
+  color: #8aa1ff;
+}
+
+.card {
+  @apply bg-zinc-900/60 border border-zinc-800 rounded-2xl p-6 shadow-lg shadow-black/20;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2
+    font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500/60;
+}
+
+.btn-primary {
+  @apply btn bg-brand-600 hover:bg-brand-500 text-white;
+}
+
+.btn-ghost {
+  @apply btn bg-zinc-800 hover:bg-zinc-700 text-zinc-100;
+}
+
+.tag {
+  @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium;
+}
+
+.tag-info  { @apply tag bg-blue-500/10   text-blue-300   ring-1 ring-inset ring-blue-500/30; }
+.tag-ok    { @apply tag bg-emerald-500/10 text-emerald-300 ring-1 ring-inset ring-emerald-500/30; }
+.tag-warn  { @apply tag bg-amber-500/10  text-amber-300  ring-1 ring-inset ring-amber-500/30; }
+.tag-err   { @apply tag bg-rose-500/10   text-rose-300   ring-1 ring-inset ring-rose-500/30; }

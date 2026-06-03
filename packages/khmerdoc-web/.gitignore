@@ -1,0 +1,6 @@
+# Web (Next.js)
+.next/
+node_modules/
+out/
+.DS_Store
+*.log
