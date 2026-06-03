@@ -1,0 +1,30 @@
+{
+  "document_type": "receipt",
+  "merchant_name": "Central Market Vendor",
+  "date": "2026-03-02",
+  "currency": "USD",
+  "subtotal": 35.37,
+  "discount": 0,
+  "tax": 0,
+  "total": 35.37,
+  "phone_numbers": [
+    "0172553419"
+  ],
+  "invoice_number": "RCP-646",
+  "line_items": [
+    {
+      "name": "Bottled Water 1.5L",
+      "quantity": 2,
+      "unit_price": 7.11,
+      "total": 14.22
+    },
+    {
+      "name": "Soap Bar",
+      "quantity": 1,
+      "unit_price": 21.15,
+      "total": 21.15
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "document_type": "quotation",
+  "merchant_name": "Riverside Restaurant",
+  "buyer_name": "Channa Trading",
+  "date": "2026-03-26",
+  "valid_until": "2026-04-02",
+  "currency": "USD",
+  "subtotal": 70.02,
+  "discount": 0,
+  "tax": 0,
+  "total": 70.02,
+  "phone_numbers": [
+    "0177317810"
+  ],
+  "quotation_number": "QUOT-767",
+  "line_items": [
+    {
+      "name": "Rice 5kg",
+      "quantity": 2,
+      "unit_price": 12.4,
+      "total": 24.8
+    },
+    {
+      "name": "Soap Bar",
+      "quantity": 2,
+      "unit_price": 22.61,
+      "total": 45.22
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

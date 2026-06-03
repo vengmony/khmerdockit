@@ -1,0 +1,15 @@
+Example Mart
+QUOTATION
+Quote No: QUOT-378
+Date: 2026-04-28
+Valid Until: 2026-05-28
+Attn: Phally Bookshop
+Tel: 0171241182
+--------------------------------
+Notebook A5          1 x $17.34  =  $17.34
+USB-C Cable 1m       3 x $12.47  =  $37.41
+Classic Clog         1 x $16.04  =  $16.04
+USB-C Cable 1m       1 x $0.59  =  $0.59
+--------------------------------
+SUBTOTAL    $71.38
+TOTAL       $71.38

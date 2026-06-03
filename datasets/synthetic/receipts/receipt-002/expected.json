@@ -1,0 +1,30 @@
+{
+  "document_type": "receipt",
+  "merchant_name": "កាហ្វេភ្នំពេញ",
+  "date": "2026-04-29",
+  "currency": "USD",
+  "subtotal": 24.03,
+  "discount": 0,
+  "tax": 0,
+  "total": 24.03,
+  "phone_numbers": [
+    "0936379402"
+  ],
+  "invoice_number": "INV-448",
+  "line_items": [
+    {
+      "name": "Notebook A5",
+      "quantity": 1,
+      "unit_price": 2.77,
+      "total": 2.77
+    },
+    {
+      "name": "Iced Coffee",
+      "quantity": 1,
+      "unit_price": 21.26,
+      "total": 21.26
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

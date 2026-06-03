@@ -1,0 +1,50 @@
+{
+  "document_type": "invoice",
+  "merchant_name": "Sisowath Supplies",
+  "buyer_name": "Channa Trading",
+  "date": "2026-05-26",
+  "due_date": "2026-06-09",
+  "currency": "USD",
+  "subtotal": 154.33,
+  "discount": 0,
+  "tax": 0,
+  "total": 154.33,
+  "phone_numbers": [
+    "0937101226"
+  ],
+  "invoice_number": "INV-710",
+  "line_items": [
+    {
+      "name": "USB-C Cable 1m",
+      "quantity": 3,
+      "unit_price": 21.59,
+      "total": 64.77
+    },
+    {
+      "name": "Classic Clog",
+      "quantity": 1,
+      "unit_price": 17.2,
+      "total": 17.2
+    },
+    {
+      "name": "USB-C Cable 1m",
+      "quantity": 1,
+      "unit_price": 3.23,
+      "total": 3.23
+    },
+    {
+      "name": "T-Shirt M",
+      "quantity": 1,
+      "unit_price": 11.62,
+      "total": 11.62
+    },
+    {
+      "name": "USB-C Cable 1m",
+      "quantity": 3,
+      "unit_price": 19.17,
+      "total": 57.51
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

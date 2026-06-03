@@ -1,0 +1,32 @@
+{
+  "document_type": "invoice",
+  "merchant_name": "Phnom Penh Coffee",
+  "buyer_name": "Rithy Bakery",
+  "date": "2026-03-15",
+  "due_date": "2026-03-22",
+  "currency": "USD",
+  "subtotal": 19.13,
+  "discount": 0,
+  "tax": 0,
+  "total": 19.13,
+  "phone_numbers": [
+    "0129839301"
+  ],
+  "invoice_number": "INV-824",
+  "line_items": [
+    {
+      "name": "Classic Clog",
+      "quantity": 1,
+      "unit_price": 2.24,
+      "total": 2.24
+    },
+    {
+      "name": "Soap Bar",
+      "quantity": 1,
+      "unit_price": 16.89,
+      "total": 16.89
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

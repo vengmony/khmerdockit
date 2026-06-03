@@ -1,0 +1,44 @@
+{
+  "document_type": "quotation",
+  "merchant_name": "Mekong Minimart",
+  "buyer_name": "Sokha Construction Co., Ltd.",
+  "date": "2026-02-03",
+  "valid_until": "2026-03-05",
+  "currency": "USD",
+  "subtotal": 31.74,
+  "discount": 0,
+  "tax": 0,
+  "total": 31.74,
+  "phone_numbers": [
+    "0931219136"
+  ],
+  "quotation_number": "QUOT-222",
+  "line_items": [
+    {
+      "name": "Classic Clog",
+      "quantity": 3,
+      "unit_price": 2.51,
+      "total": 7.53
+    },
+    {
+      "name": "Notebook A5",
+      "quantity": 1,
+      "unit_price": 5.5,
+      "total": 5.5
+    },
+    {
+      "name": "Notebook A5",
+      "quantity": 1,
+      "unit_price": 7.01,
+      "total": 7.01
+    },
+    {
+      "name": "Rice 5kg",
+      "quantity": 1,
+      "unit_price": 11.7,
+      "total": 11.7
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

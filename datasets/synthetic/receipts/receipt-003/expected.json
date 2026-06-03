@@ -1,0 +1,36 @@
+{
+  "document_type": "receipt",
+  "merchant_name": "ផ្សារធំថ្មី",
+  "date": "2026-03-15",
+  "currency": "KHR",
+  "subtotal": 36800.0,
+  "discount": 0,
+  "tax": 0,
+  "total": 36800.0,
+  "phone_numbers": [
+    "0170781618"
+  ],
+  "invoice_number": "INV-949",
+  "line_items": [
+    {
+      "name": "Soap Bar",
+      "quantity": 1,
+      "unit_price": 2100.0,
+      "total": 2100.0
+    },
+    {
+      "name": "Soap Bar",
+      "quantity": 1,
+      "unit_price": 24600.0,
+      "total": 24600.0
+    },
+    {
+      "name": "Soap Bar",
+      "quantity": 1,
+      "unit_price": 10100.0,
+      "total": 10100.0
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

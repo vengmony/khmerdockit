@@ -1,0 +1,15 @@
+{
+  "document_type": "bank_slip",
+  "bank_name": "Sathapana Bank",
+  "sender_name": "Channa Trading",
+  "sender_account": "31810617",
+  "receiver_name": "Sisowath Supplies",
+  "receiver_account": "33763566",
+  "amount": 22100.0,
+  "currency": "KHR",
+  "date": "2026-03-01",
+  "reference": "TRF448321",
+  "phone_numbers": [],
+  "confidence": 0.0,
+  "warnings": []
+}

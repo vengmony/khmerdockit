@@ -1,0 +1,16 @@
+Sisowath Supplies
+INVOICE
+Invoice No: INV-710
+Date: 2026-05-26
+Due Date: 2026-06-09
+Bill To: Channa Trading
+Tel: 0937101226
+--------------------------------
+USB-C Cable 1m       3 x $21.59  =  $64.77
+Classic Clog         1 x $17.20  =  $17.20
+USB-C Cable 1m       1 x $3.23  =  $3.23
+T-Shirt M            1 x $11.62  =  $11.62
+USB-C Cable 1m       3 x $19.17  =  $57.51
+--------------------------------
+SUBTOTAL    $154.33
+TOTAL       $154.33

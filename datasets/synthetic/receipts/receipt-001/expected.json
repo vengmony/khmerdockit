@@ -1,0 +1,30 @@
+{
+  "document_type": "receipt",
+  "merchant_name": "កាហ្វេភ្នំពេញ",
+  "date": "2026-04-10",
+  "currency": "USD",
+  "subtotal": 22.31,
+  "discount": 0,
+  "tax": 0,
+  "total": 22.31,
+  "phone_numbers": [
+    "0120433218"
+  ],
+  "invoice_number": "RCP-704",
+  "line_items": [
+    {
+      "name": "Iced Coffee",
+      "quantity": 1,
+      "unit_price": 6.2,
+      "total": 6.2
+    },
+    {
+      "name": "Classic Clog",
+      "quantity": 3,
+      "unit_price": 5.37,
+      "total": 16.11
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

@@ -1,0 +1,8 @@
+ABA Bank
+BANK TRANSFER CONFIRMATION
+Reference: TRF593554
+Date: 2026-02-14
+From: Channa Trading  Acc: 31367172
+To:   BKK1 Books  Acc: 24508349
+Amount: 437,400 ៛
+Status: SUCCESS

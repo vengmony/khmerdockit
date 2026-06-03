@@ -1,0 +1,5 @@
+# Generated synthetic datasets
+.synthetic_cache/
+
+# Real user uploads during dev — must never be committed
+uploads/

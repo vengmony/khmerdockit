@@ -1,0 +1,14 @@
+Phnom Penh Coffee
+INVOICE
+Invoice No: INV-371
+Date: 2026-03-28
+Due Date: 2026-04-27
+Bill To: Sokha Construction Co., Ltd.
+Tel: 0781822782
+--------------------------------
+Soap Bar             1 x $10.28  =  $10.28
+Notebook A5          2 x $22.54  =  $45.08
+Bottled Water 1.5L   1 x $6.57  =  $6.57
+--------------------------------
+SUBTOTAL    $61.93
+TOTAL       $61.93

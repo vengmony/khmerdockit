@@ -1,0 +1,36 @@
+{
+  "document_type": "receipt",
+  "merchant_name": "Example Mart",
+  "date": "2026-03-12",
+  "currency": "USD",
+  "subtotal": 78.96,
+  "discount": 0,
+  "tax": 0,
+  "total": 78.96,
+  "phone_numbers": [
+    "0150564139"
+  ],
+  "invoice_number": "INV-317",
+  "line_items": [
+    {
+      "name": "Bottled Water 1.5L",
+      "quantity": 1,
+      "unit_price": 6.99,
+      "total": 6.99
+    },
+    {
+      "name": "Soap Bar",
+      "quantity": 3,
+      "unit_price": 13.7,
+      "total": 41.1
+    },
+    {
+      "name": "T-Shirt M",
+      "quantity": 3,
+      "unit_price": 10.29,
+      "total": 30.87
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

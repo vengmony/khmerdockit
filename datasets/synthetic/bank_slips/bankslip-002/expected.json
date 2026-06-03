@@ -1,0 +1,15 @@
+{
+  "document_type": "bank_slip",
+  "bank_name": "Wing Bank",
+  "sender_name": "Phally Bookshop",
+  "sender_account": "59555330",
+  "receiver_name": "Example Mart",
+  "receiver_account": "88183110",
+  "amount": 217.74,
+  "currency": "USD",
+  "date": "2026-05-29",
+  "reference": "TRF423232",
+  "phone_numbers": [],
+  "confidence": 0.0,
+  "warnings": []
+}

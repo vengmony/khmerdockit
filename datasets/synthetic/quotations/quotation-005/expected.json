@@ -1,0 +1,44 @@
+{
+  "document_type": "quotation",
+  "merchant_name": "Example Mart",
+  "buyer_name": "Phally Bookshop",
+  "date": "2026-04-28",
+  "valid_until": "2026-05-28",
+  "currency": "USD",
+  "subtotal": 71.38,
+  "discount": 0,
+  "tax": 0,
+  "total": 71.38,
+  "phone_numbers": [
+    "0171241182"
+  ],
+  "quotation_number": "QUOT-378",
+  "line_items": [
+    {
+      "name": "Notebook A5",
+      "quantity": 1,
+      "unit_price": 17.34,
+      "total": 17.34
+    },
+    {
+      "name": "USB-C Cable 1m",
+      "quantity": 3,
+      "unit_price": 12.47,
+      "total": 37.41
+    },
+    {
+      "name": "Classic Clog",
+      "quantity": 1,
+      "unit_price": 16.04,
+      "total": 16.04
+    },
+    {
+      "name": "USB-C Cable 1m",
+      "quantity": 1,
+      "unit_price": 0.59,
+      "total": 0.59
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

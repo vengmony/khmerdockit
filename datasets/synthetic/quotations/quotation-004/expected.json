@@ -1,0 +1,32 @@
+{
+  "document_type": "quotation",
+  "merchant_name": "Phnom Penh Coffee",
+  "buyer_name": "Sokha Construction Co., Ltd.",
+  "date": "2026-05-18",
+  "valid_until": "2026-06-01",
+  "currency": "USD",
+  "subtotal": 78.16,
+  "discount": 0,
+  "tax": 0,
+  "total": 78.16,
+  "phone_numbers": [
+    "0789911838"
+  ],
+  "quotation_number": "QUOT-371",
+  "line_items": [
+    {
+      "name": "Notebook A5",
+      "quantity": 1,
+      "unit_price": 4.36,
+      "total": 4.36
+    },
+    {
+      "name": "USB-C Cable 1m",
+      "quantity": 3,
+      "unit_price": 24.6,
+      "total": 73.8
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

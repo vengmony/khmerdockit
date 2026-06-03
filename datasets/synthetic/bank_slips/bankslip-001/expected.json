@@ -1,0 +1,15 @@
+{
+  "document_type": "bank_slip",
+  "bank_name": "Wing Bank",
+  "sender_name": "Rithy Bakery",
+  "sender_account": "69302158",
+  "receiver_name": "Mekong Minimart",
+  "receiver_account": "84045292",
+  "amount": 284800.0,
+  "currency": "KHR",
+  "date": "2026-05-20",
+  "reference": "TRF178898",
+  "phone_numbers": [],
+  "confidence": 0.0,
+  "warnings": []
+}

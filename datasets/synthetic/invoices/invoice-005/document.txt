@@ -1,0 +1,15 @@
+Sisowath Supplies
+INVOICE
+Invoice No: INV-196
+Date: 2026-05-22
+Due Date: 2026-06-21
+Bill To: Phally Bookshop
+Tel: 0159973763
+--------------------------------
+T-Shirt M            2 x $11.94  =  $23.88
+Classic Clog         1 x $1.99  =  $1.99
+Notebook A5          1 x $6.59  =  $6.59
+Soap Bar             3 x $11.49  =  $34.47
+--------------------------------
+SUBTOTAL    $66.93
+TOTAL       $66.93

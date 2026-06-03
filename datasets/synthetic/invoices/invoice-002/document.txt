@@ -1,0 +1,13 @@
+Phnom Penh Coffee
+INVOICE
+Invoice No: INV-100
+Date: 2026-03-19
+Due Date: 2026-04-02
+Bill To: Rithy Bakery
+Tel: 0939325288
+--------------------------------
+Iced Coffee          1 x $22.03  =  $22.03
+USB-C Cable 1m       1 x $1.92  =  $1.92
+--------------------------------
+SUBTOTAL    $23.95
+TOTAL       $23.95

@@ -1,0 +1,8 @@
+Sathapana Bank
+BANK TRANSFER CONFIRMATION
+Reference: TRF448321
+Date: 2026-03-01
+From: Channa Trading  Acc: 31810617
+To:   Sisowath Supplies  Acc: 33763566
+Amount: 22,100 ៛
+Status: SUCCESS

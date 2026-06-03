@@ -1,0 +1,32 @@
+{
+  "document_type": "invoice",
+  "merchant_name": "Phnom Penh Coffee",
+  "buyer_name": "Rithy Bakery",
+  "date": "2026-03-19",
+  "due_date": "2026-04-02",
+  "currency": "USD",
+  "subtotal": 23.95,
+  "discount": 0,
+  "tax": 0,
+  "total": 23.95,
+  "phone_numbers": [
+    "0939325288"
+  ],
+  "invoice_number": "INV-100",
+  "line_items": [
+    {
+      "name": "Iced Coffee",
+      "quantity": 1,
+      "unit_price": 22.03,
+      "total": 22.03
+    },
+    {
+      "name": "USB-C Cable 1m",
+      "quantity": 1,
+      "unit_price": 1.92,
+      "total": 1.92
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

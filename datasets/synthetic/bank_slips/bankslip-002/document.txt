@@ -1,0 +1,8 @@
+Wing Bank
+BANK TRANSFER CONFIRMATION
+Reference: TRF423232
+Date: 2026-05-29
+From: Phally Bookshop  Acc: 59555330
+To:   Example Mart  Acc: 88183110
+Amount: $217.74
+Status: SUCCESS

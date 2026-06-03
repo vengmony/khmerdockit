@@ -1,0 +1,38 @@
+{
+  "document_type": "invoice",
+  "merchant_name": "Phnom Penh Coffee",
+  "buyer_name": "Sokha Construction Co., Ltd.",
+  "date": "2026-03-28",
+  "due_date": "2026-04-27",
+  "currency": "USD",
+  "subtotal": 61.93,
+  "discount": 0,
+  "tax": 0,
+  "total": 61.93,
+  "phone_numbers": [
+    "0781822782"
+  ],
+  "invoice_number": "INV-371",
+  "line_items": [
+    {
+      "name": "Soap Bar",
+      "quantity": 1,
+      "unit_price": 10.28,
+      "total": 10.28
+    },
+    {
+      "name": "Notebook A5",
+      "quantity": 2,
+      "unit_price": 22.54,
+      "total": 45.08
+    },
+    {
+      "name": "Bottled Water 1.5L",
+      "quantity": 1,
+      "unit_price": 6.57,
+      "total": 6.57
+    }
+  ],
+  "confidence": 0.0,
+  "warnings": []
+}

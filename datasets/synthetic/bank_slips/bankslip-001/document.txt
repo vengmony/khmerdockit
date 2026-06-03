@@ -1,0 +1,8 @@
+Wing Bank
+BANK TRANSFER CONFIRMATION
+Reference: TRF178898
+Date: 2026-05-20
+From: Rithy Bakery  Acc: 69302158
+To:   Mekong Minimart  Acc: 84045292
+Amount: 284,800 ៛
+Status: SUCCESS

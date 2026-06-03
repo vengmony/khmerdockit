@@ -1,0 +1,13 @@
+Example Mart
+RECEIPT
+No: INV-317
+Date: 2026-03-12
+Tel: 0150564139
+------------------------
+Bottled Water 1.5L1 x $6.99   $6.99
+Soap Bar          3 x $13.70   $41.10
+T-Shirt M         3 x $10.29   $30.87
+------------------------
+SUBTOTAL    $78.96
+TOTAL       $78.96
+Thank you!

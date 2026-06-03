@@ -1,0 +1,15 @@
+{
+  "document_type": "bank_slip",
+  "bank_name": "Canadia Bank",
+  "sender_name": "Sokha Construction Co., Ltd.",
+  "sender_account": "38195995",
+  "receiver_name": "Angkor Mobile Shop",
+  "receiver_account": "43491314",
+  "amount": 180.07,
+  "currency": "USD",
+  "date": "2026-03-24",
+  "reference": "TRF526117",
+  "phone_numbers": [],
+  "confidence": 0.0,
+  "warnings": []
+}

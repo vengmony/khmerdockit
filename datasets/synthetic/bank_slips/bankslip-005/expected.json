@@ -1,0 +1,15 @@
+{
+  "document_type": "bank_slip",
+  "bank_name": "ABA Bank",
+  "sender_name": "Channa Trading",
+  "sender_account": "31367172",
+  "receiver_name": "BKK1 Books",
+  "receiver_account": "24508349",
+  "amount": 437400.0,
+  "currency": "KHR",
+  "date": "2026-02-14",
+  "reference": "TRF593554",
+  "phone_numbers": [],
+  "confidence": 0.0,
+  "warnings": []
+}
