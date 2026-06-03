@@ -1,0 +1,124 @@
+[
+  {
+    "document_type": "receipt",
+    "confidence": 0.93,
+    "warnings": [],
+    "raw_ocr_text": "កាហ្វេភ្នំពេញ\nRECEIPT\nNo: RCP-704\nDate: 2026-04-10\nTel: 0120433218\n------------------------\nIced Coffee       1 x $6.20   $6.20\nClassic Clog      3 x $5.37   $16.11\n------------------------\nSUBTOTAL    $22.31\nTOTAL       $22.31\nThank you!",
+    "engine": "rules",
+    "currency": "USD",
+    "subtotal": 22.31,
+    "discount": null,
+    "tax": null,
+    "total": 22.31,
+    "merchant_name": "កាហ្វេភ្នំពេញ",
+    "date": "2026-04-10",
+    "phone_numbers": [
+      "0120433218"
+    ],
+    "invoice_number": "RCP-704",
+    "line_items": [
+      {
+        "name": "Iced Coffee",
+        "quantity": 1.0,
+        "unit_price": 6.2,
+        "total": 6.2
+      },
+      {
+        "name": "Classic Clog",
+        "quantity": 3.0,
+        "unit_price": 5.37,
+        "total": 16.11
+      }
+    ],
+    "_sample": "receipts/receipt-001/document.txt",
+    "_status": 200
+  },
+  {
+    "document_type": "invoice",
+    "confidence": 0.85,
+    "warnings": [
+      {
+        "code": "line_items_missing",
+        "message": "No structured line items detected.",
+        "field": null
+      }
+    ],
+    "raw_ocr_text": "Sisowath Supplies\nINVOICE\nInvoice No: INV-710\nDate: 2026-05-26\nDue Date: 2026-06-09\nBill To: Channa Trading\nTel: 0937101226\n--------------------------------\nUSB-C Cable 1m       3 x $21.59  =  $64.77\nClassic Clog         1 x $17.20  =  $17.20\nUSB-C Cable 1m       1 x $3.23  =  $3.23\nT-Shirt M            1 x $11.62  =  $11.62\nUSB-C Cable 1m       3 x $19.17  =  $57.51\n--------------------------------\nSUBTOTAL    $154.33\nTOTAL       $154.33",
+    "engine": "rules",
+    "currency": "USD",
+    "subtotal": 154.33,
+    "discount": null,
+    "tax": null,
+    "total": 154.33,
+    "merchant_name": "Sisowath Supplies",
+    "buyer_name": null,
+    "date": "2026-05-26",
+    "due_date": null,
+    "phone_numbers": [
+      "0937101226"
+    ],
+    "invoice_number": "INV-710",
+    "line_items": [],
+    "_sample": "invoices/invoice-001/document.txt",
+    "_status": 200
+  },
+  {
+    "document_type": "quotation",
+    "confidence": 0.85,
+    "warnings": [
+      {
+        "code": "line_items_missing",
+        "message": "No structured line items detected.",
+        "field": null
+      }
+    ],
+    "raw_ocr_text": "Riverside Restaurant\nQUOTATION\nQuote No: QUOT-767\nDate: 2026-03-26\nValid Until: 2026-04-02\nAttn: Channa Trading\nTel: 0177317810\n--------------------------------\nRice 5kg             2 x $12.40  =  $24.80\nSoap Bar             2 x $22.61  =  $45.22\n--------------------------------\nSUBTOTAL    $70.02\nTOTAL       $70.02",
+    "engine": "rules",
+    "currency": "USD",
+    "subtotal": 70.02,
+    "discount": null,
+    "tax": null,
+    "total": 70.02,
+    "merchant_name": "Riverside Restaurant",
+    "buyer_name": null,
+    "date": "2026-03-26",
+    "valid_until": null,
+    "phone_numbers": [
+      "0177317810"
+    ],
+    "quotation_number": "QUOT-767",
+    "line_items": [],
+    "_sample": "quotations/quotation-001/document.txt",
+    "_status": 200
+  },
+  {
+    "document_type": "bank_slip",
+    "confidence": 0.77,
+    "warnings": [
+      {
+        "code": "phone_missing",
+        "message": "No phone number detected.",
+        "field": null
+      },
+      {
+        "code": "line_items_missing",
+        "message": "No structured line items detected.",
+        "field": null
+      }
+    ],
+    "raw_ocr_text": "Wing Bank\nBANK TRANSFER CONFIRMATION\nReference: TRF178898\nDate: 2026-05-20\nFrom: Rithy Bakery  Acc: 69302158\nTo:   Mekong Minimart  Acc: 84045292\nAmount: 284,800 ៛\nStatus: SUCCESS",
+    "engine": "rules",
+    "bank_name": null,
+    "sender_name": null,
+    "sender_account": null,
+    "receiver_name": null,
+    "receiver_account": null,
+    "amount": 284800.0,
+    "currency": "KHR",
+    "date": "2026-05-20",
+    "reference": "TRF178898",
+    "phone_numbers": [],
+    "_sample": "bank_slips/bankslip-001/document.txt",
+    "_status": 200
+  }
+]
