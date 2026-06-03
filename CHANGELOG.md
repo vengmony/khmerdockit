@@ -27,6 +27,11 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   - `POST /v1/ocr`
   - `GET /v1/schemas`
   - CORS for the local web demo, OpenAPI docs at `/docs`.
+- `khmerdoc-demo` **Gradio** web UI (`khmerdoc-demo` command):
+  - Single-command run, no API server, no Node.js.
+  - File upload + paste-OCR-text + four built-in sample buttons.
+  - Formatted markdown view + raw JSON view + warnings.
+  - `--share` flag for a free 72-hour public URL.
 - `khmerdoc-web` Next.js 14 demo (TypeScript + Tailwind):
   - Upload page with drag-and-drop.
   - Document preview.

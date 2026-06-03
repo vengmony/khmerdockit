@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "khmerdoc-demo"
+version = "0.1.0"
+description = "KhmerDocKit Gradio demo — single-command web UI for trying the library on real documents or synthetic samples."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "KhmerDocKit contributors" }]
+dependencies = [
+  "khmerdoc-core",
+  "gradio>=4.20",
+  "rich>=13.7",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.3",
+]
+
+[project.scripts]
+khmerdoc-demo = "khmerdoc_demo.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "RUF"]
+ignore = ["E501", "B008"]

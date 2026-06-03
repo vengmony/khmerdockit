@@ -34,3 +34,12 @@ services:
     depends_on:
       api:
         condition: service_healthy
+
+  gradio:
+    build:
+      context: .
+      dockerfile: packages/khmerdoc-demo/Dockerfile
+    container_name: khmerdoc-gradio
+    ports:
+      - "7860:7860"
+    profiles: ["gradio"]  # opt-in: `docker compose --profile gradio up`

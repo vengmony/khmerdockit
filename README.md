@@ -49,6 +49,7 @@ discussion.
 | -------------------- | ------ |
 | Python library       | ✅ `khmerdoc-core` (Pydantic v2) |
 | FastAPI server       | ✅ `khmerdoc-api` (`/health`, `/v1/parse`, `/v1/ocr`, `/v1/schemas`) |
+| Gradio demo (single command) | ✅ `khmerdoc-demo` (drop file → JSON in 5s) |
 | Next.js web demo     | ✅ `khmerdoc-web` (upload, preview, JSON viewer) |
 | CLI                  | ✅ `khmerdoc parse|ocr|benchmark|list-schemas` |
 | OCR backends         | ✅ `mock` (default), `paddle` (optional), `tesseract` (optional) |
@@ -147,6 +148,7 @@ khmer-dockit/
 ├── packages/
 │   ├── khmerdoc-core/      ← Python library
 │   ├── khmerdoc-api/       ← FastAPI server
+│   ├── khmerdoc-demo/      ← Gradio demo (single command, public URL via --share)
 │   └── khmerdoc-web/       ← Next.js demo
 ├── datasets/synthetic/     ← 20 synthetic samples + labels
 ├── examples/               ← Python + curl usage

@@ -73,6 +73,18 @@ demo:
 	  (cd packages/khmerdoc-web && npm run dev &) ; \
 	  wait
 
+.PHONY: demo-gradio
+demo-gradio:
+	khmerdoc-demo --host 0.0.0.0 --port 7860
+
+.PHONY: demo-gradio-share
+demo-gradio-share:
+	khmerdoc-demo --host 0.0.0.0 --port 7860 --share
+
+.PHONY: install-demo
+install-demo:
+	$(PIP) install -e packages/khmerdoc-demo
+
 # ----- data -----
 .PHONY: synth
 synth:
