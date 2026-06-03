@@ -22,6 +22,7 @@ class OcrBackend(str, Enum):
     MOCK = "mock"
     PADDLE = "paddle"
     TESSERACT = "tesseract"
+    EASYOCR = "easyocr"
 
 
 class OCRAdapter(ABC):
@@ -76,6 +77,7 @@ class OcrAdapterRegistry:
 
 # Built-in adapters are registered lazily to keep ``import khmerdoc.ocr`` cheap.
 def _register_defaults() -> None:
+    from .easyocr import EasyOCRAdapter
     from .mock import MockOCRAdapter
     from .paddle import PaddleOCRAdapter
     from .tesseract import TesseractOCRAdapter
@@ -83,6 +85,7 @@ def _register_defaults() -> None:
     OcrAdapterRegistry.register(OcrBackend.MOCK.value, MockOCRAdapter)
     OcrAdapterRegistry.register(OcrBackend.PADDLE.value, PaddleOCRAdapter)
     OcrAdapterRegistry.register(OcrBackend.TESSERACT.value, TesseractOCRAdapter)
+    OcrAdapterRegistry.register(OcrBackend.EASYOCR.value, EasyOCRAdapter)
 
 
 _register_defaults()

@@ -11,12 +11,14 @@ or production without changing downstream code:
 from __future__ import annotations
 
 from .base import OCRAdapter, OcrAdapterRegistry, OcrBackend
+from .easyocr import EasyOCRAdapter
 from .mock import MockOCRAdapter
 from .paddle import PaddleOCRAdapter
 from .tesseract import TesseractOCRAdapter
 
 __all__ = [
     "OCRAdapter",
+    "EasyOCRAdapter",
     "OcrAdapterRegistry",
     "OcrBackend",
     "MockOCRAdapter",
