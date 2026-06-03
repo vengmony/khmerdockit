@@ -1,0 +1,40 @@
+name: Document template request
+description: Request a new synthetic document template (e.g. a new receipt layout)
+title: "[template] "
+labels: ["dataset", "needs-triage"]
+body:
+  - type: input
+    id: kind
+    attributes:
+      label: Document kind
+      description: receipt, invoice, quotation, bank_slip, or a new kind?
+      placeholder: "receipt"
+    validations:
+      required: true
+  - type: textarea
+    id: layout
+    attributes:
+      label: Describe the layout
+      description: Where do fields appear? Any special formatting (e.g. dotted
+                   lines, two columns, Khmer script)?
+      placeholder: |
+        - header: shop logo (text), shop name, "បង្គាល់ទទួលប្រាក់"
+        - line items in a 2-column right-aligned table
+        - footer: "សូមអរគុណ" + signature line
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Reference (URL / image) if you have one
+      placeholder: "https://example.com/sample-receipt.jpg"
+  - type: textarea
+    id: fields
+    attributes:
+      label: Required fields
+      description: Which fields must the template fill?
+      placeholder: |
+        - merchant_name
+        - date
+        - line_items (name, qty, unit_price, total)
+        - total

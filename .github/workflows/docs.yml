@@ -1,0 +1,30 @@
+name: docs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "README.md"
+      - "ROADMAP.md"
+      - "CHANGELOG.md"
+
+permissions:
+  contents: read
+
+jobs:
+  markdown-lint:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+      - name: Lint
+        run: |
+          markdownlint \
+            --ignore node_modules \
+            --ignore '.next' \
+            --ignore 'datasets/synthetic' \
+            --disable MD013 MD033 MD041 \
+            '**/*.md'

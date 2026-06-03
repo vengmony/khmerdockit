@@ -1,0 +1,69 @@
+name: Bug report
+description: Report a bug in KhmerDocKit
+title: "[bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug! Please include enough detail
+        for us to reproduce it.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which part of KhmerDocKit is this about?
+      options:
+        - khmerdoc-core (library)
+        - khmerdoc-api (FastAPI server)
+        - khmerdoc-web (Next.js demo)
+        - synthetic dataset
+        - docs / contributing
+        - other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Output of `khmerdoc --version` or `pip show khmerdoc-core`
+      placeholder: "0.1.0"
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: What did you run? Include code or curl commands.
+      placeholder: |
+        khmerdoc parse examples/sample_receipt.jpg --type receipt
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      placeholder: |
+        Total = 18.50
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      placeholder: |
+        Total = null
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / stack trace
+      render: shell
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I searched existing issues and didn't find a duplicate.
+          required: true
+        - label: The document I used is **synthetic** or I have permission to share it.
+          required: true

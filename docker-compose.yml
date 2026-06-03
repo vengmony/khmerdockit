@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: packages/khmerdoc-api/Dockerfile
+    container_name: khmerdoc-api
+    ports:
+      - "8000:8000"
+    environment:
+      KHMERDOC_OCR_BACKEND: ${KHMERDOC_OCR_BACKEND:-mock}
+      KHMERDOC_OCR_LANG: ${KHMERDOC_OCR_LANG:-en}
+      KHMERDOC_EXTRACTOR_BACKEND: ${KHMERDOC_EXTRACTOR_BACKEND:-rules}
+      KHMERDOC_LLM_ENABLED: ${KHMERDOC_LLM_ENABLED:-false}
+      OPENAI_API_KEY: ${OPENAI_API_KEY-}
+    volumes:
+      - ./datasets:/app/datasets:ro
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build:
+      context: .
+      dockerfile: packages/khmerdoc-web/Dockerfile
+    container_name: khmerdoc-web
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: http://api:8000
+    depends_on:
+      api:
+        condition: service_healthy

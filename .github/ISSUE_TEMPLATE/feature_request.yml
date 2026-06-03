@@ -1,0 +1,48 @@
+name: Feature request
+description: Suggest a new feature for KhmerDocKit
+title: "[feat] "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - core extraction
+        - OCR adapters
+        - API
+        - Web demo
+        - synthetic data / benchmark
+        - documentation
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is the problem you are trying to solve?
+      placeholder: |
+        Cambodian receipts often print totals in BOTH USD and KHR; we need a
+        converter field to expose both.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      placeholder: |
+        Add a `total_khr` and a `total_usd` field to Receipt, plus a config
+        switch to pick which is canonical.
+    validations:
+      required: true
+  - type: textarea
+    id: alt
+    attributes:
+      label: Alternatives considered
+  - type: checkbox
+    id: contribute
+    attributes:
+      label: I'd like to work on this
+    validations:
+      required: false
